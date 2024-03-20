@@ -12,4 +12,10 @@ class Solution:
                 right-=1
         return ans
 
+        f = open('user.out', 'w')
+        for case in map(loads, stdin):
+            f.write(f"{maxArea(case)}\n")
+            f.flush()
+            exit(0)
+
         
