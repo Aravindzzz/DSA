@@ -27,5 +27,6 @@ class Solution {
         System.out.println("GCD of " + a + " and " + b + " is: " + gcd(a, b));
     }
 }
+//LCM = A*B/GCD(A,B)
 
 
